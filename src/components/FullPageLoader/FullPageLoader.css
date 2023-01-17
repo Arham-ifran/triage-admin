@@ -1,0 +1,176 @@
+/* .fullpage-loader-holder {position: fixed;left: 0;top: 0;right: 0;bottom: 0;z-index: 99999;background: rgba(0, 0, 0, 0.9);animation: animate 1s infinite;}
+.fullpage-loader-holder .img-loader { width: 120px; height: 120px;}
+.fullpage-loader-holder .img-loader img{ width: 100%; height: 100%; object-fit: contain; animation: rotation 2s infinite linear;}
+@keyframes rotation {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(359deg);}
+}
+
+@keyframes animate{
+    0%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1657798150/hex-nft/assets/mynist_s1vmud_iladko.png"), auto;
+    }
+    4%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230803/hex-nft/assets/Layer_1_c8iiwt.png"), auto;
+    }
+    8%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230802/hex-nft/assets/Layer_2_anxqpu.png"), auto;
+    }
+    12%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230802/hex-nft/assets/Layer_3_wdew30.png"), auto;
+    }
+    16%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230802/hex-nft/assets/Layer_4_sv2oga.png"), auto;
+    }
+    20%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230802/hex-nft/assets/Layer_5_q3lbsg.png"), auto;
+    }
+    24%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230803/hex-nft/assets/Layer_6_orhyki.png"), auto;
+    }
+    28%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230803/hex-nft/assets/Layer_7_atjxy6.png"), auto;
+    }
+    32%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230803/hex-nft/assets/Layer_8_circ6v.png"), auto;
+    }
+    36%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230804/hex-nft/assets/Layer_9_im9kmf.png"), auto;
+    }
+    40%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230800/hex-nft/assets/Layer_10_aaffy5.png"), auto;
+    }
+    44%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230800/hex-nft/assets/Layer_11_i0cgee.png"), auto;
+    }
+    48%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230800/hex-nft/assets/Layer_12_suewmj.png"), auto;
+    }
+    52%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230800/hex-nft/assets/Layer_13_zhewzi.png"), auto;
+    }
+    56%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230800/hex-nft/assets/Layer_14_jrgdkl.png"), auto;
+    }
+    60%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230801/hex-nft/assets/Layer_15_wbjbct.png"), auto;
+    }
+    64%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230801/hex-nft/assets/Layer_16_hssi90.png"), auto;
+    }
+    68%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230801/hex-nft/assets/Layer_17_niqqak.png"), auto;
+    }
+    72%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230801/hex-nft/assets/Layer_18_trznuv.png"), auto;
+    }
+    76%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230801/hex-nft/assets/Layer_19_uttdy3.png"), auto;
+    }
+    80%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230801/hex-nft/assets/Layer_20_aeaw1e.png"), auto;
+    }
+    84%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230801/hex-nft/assets/Layer_21_gahhqa.png"), auto;
+    }
+    88%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230801/hex-nft/assets/Layer_22_e4r7am.png"), auto;
+    }
+    92%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230802/hex-nft/assets/Layer_23_qrt91e.png"), auto;
+    }
+    96%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230802/hex-nft/assets/Layer_24_jh18cx.png"), auto;
+    }
+    100%{ 
+        cursor: url("https://res.cloudinary.com/arhamsoft-ltd/image/upload/v1658230802/hex-nft/assets/Layer_25_gm0goy.png"), auto;
+    }
+    
+  }
+
+@media only screen and (max-width:575px){
+    .fullpage-loader-holder .img-loader { width: 100px; height: 100px;}
+} */
+
+
+.center-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+}
+
+.loader-triangle-9 {
+    display: block;
+    margin: 0 auto;
+}
+.loader-triangle-9 > div {
+    position: relative;
+    text-align: left;
+    transform-origin: 33.33% 66.66%;
+}
+.loader-triangle-9 > div:before,
+.loader-triangle-9 > div:after {
+    content: "";
+    position: absolute;
+    background: inherit;
+}
+.loader-triangle-9 > div,
+.loader-triangle-9 > div:before,
+.loader-triangle-9 > div:after {
+    width: 20px;
+    height: 20px;
+    border-top-right-radius: 20%;
+}
+.loader-triangle-9 > div:before {
+    transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707) translate(0, -50%);
+}
+.loader-triangle-9 > div:after {
+    transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
+}
+.loader-triangle-9 > div:first-child {
+    background: #4168eb;
+    transform: rotate(-60deg) skewX(-30deg) scale(1, 0.866) translate(143.33%, 110%);
+    animation: anm-TL-9-first 3s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+}
+.loader-triangle-9 > div:last-child {
+    background: #1e89ab;
+    transform: rotate(0deg) skewX(-30deg) scale(1, 0.866) translate(-100%, -4%);
+    animation: anm-TL-9-last 3s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+}
+@keyframes anm-TL-9-rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+@keyframes anm-TL-9-first {
+    0% {
+        transform: rotate(-60deg) skewX(-30deg) scale(1, 0.866) translate(143.33%, 110%);
+    }
+    33% {
+        transform: rotate(-60deg) skewX(-30deg) scale(1, 0.866) translate(-76.67%, -120%);
+    }
+    66% {
+        transform: rotate(-60deg) skewX(-30deg) scale(1, 0.866) translate(-76.67%, 112%);
+    }
+}
+@keyframes anm-TL-9-last {
+    0% {
+        transform: rotate(0deg) skewX(-30deg) scale(1, 0.866) translate(-100%, -4%);
+    }
+    33% {
+        transform: rotate(0deg) skewX(-30deg) scale(1, 0.866) translate(134%, -4%);
+    }
+    66% {
+        transform: rotate(0deg) skewX(-30deg) scale(1, 0.866) translate(-89%, -214%);
+    }
+}
